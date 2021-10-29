@@ -7,6 +7,48 @@
     <title>Microverse Challenge</title>
   </head>
   <body>
+    <h1 id="title">Heading</h1>
+    <p id="description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+      laboriosam excepturi fuga libero eaque est et? Ullam laboriosam officiis a
+      enim aliquam facere cum similique magni. Expedita in molestias earum.
+    </p>
+
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input
+        type="text"
+        id="name"
+        name=""
+        placeholder="name"
+        value="Nwalo"
+        required
+      />
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="email" required />
+      <label for="number" id="number-label">Number</label>
+      <input
+        type="number"
+        id="number"
+        placeholder="number"
+        required
+        min="3"
+        max="6"
+      />
+      <select name="" id="dropdown">
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+
+      <input type="radio" name="gender" value="male" />
+      <input type="radio" name="gender" value="female" />
+
+      <input type="checkbox" name="gender" value="male" />
+      <input type="checkbox" name="gender" value="female" />
+
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <button id="submit">Submit</button>
+    </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="js/index.js"></script>
   </body>
